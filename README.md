@@ -80,6 +80,15 @@ se usara bootstrap
 					</ul>
 				</div> <!--End items-->
 			</nav>
+			
+			<!--Header-->
+				<header class="container-fluid header_tia-tomate"
+				<h1>Nosotros</h1>
+				</header>
+
+			<!--Historia-->
+			
+
 
 
 			<!-- Optional JavaScript -->
