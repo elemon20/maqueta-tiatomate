@@ -85,11 +85,28 @@ se usara bootstrap
 				<header class="container-fluid header_tia-tomate"
 				<h1>Nosotros</h1>
 				</header>
-
-			<!--Historia-->
 			
+				<main>
+
+			<!--Blog-->
+			
+				<section class="container-fluid blog">
+				    <div class="row">
+				      <div class="blog__inner col-lg-6 col-md-6 col-sm-12">
+				        <h3>Historia </h3>
+				        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
+				        
+				     </div>
+				     <div class="blog__inner blog__inner_background col-lg-6 col-md-6 col-sm-12">
+						<div class="blog__content"><h3>Un Gusto Conocerte!</h3></div>
+					</div>
+				    </div>
+				</section>
+				
+				<!--about us section-->
 
 
+				</main>
 
 			<!-- Optional JavaScript -->
 		    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
