@@ -1,0 +1,14 @@
+ @font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+  }
+
+@font-face {
+  font-family: "Releway-bold";
+  src: url("../fonts/Releway-bold.ttf");
+  }
+
+@font-face {
+  font-family: "Releway-ExtraLight";
+  src: url("../fonts/Releway-ExtraLight.ttf.ttf");
+  }
