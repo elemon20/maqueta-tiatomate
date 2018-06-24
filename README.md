@@ -49,7 +49,8 @@ se usara bootstrap
 		<body>
 			<!-- Navbar -->
 			
-			<nav class="navbar navbar-expand-lg navbar__tia-tomate fixed-top">
+			<nav class="navbar navbar-expand-lg navbar-light navbar__tia-tomate fixed-top">
+				<div class="container-fluid">
 			
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -58,13 +59,13 @@ se usara bootstrap
 			<!-- Just Image-->
 
 				<a class="navbar-brand" href="index.html">
-    			<img src="../img/logo-navbar.png" width="30" height="30" alt="Tía Tomate">
+    			<img src="assets/img/logo-navbar.png" alt="Tía Tomate">
 				</a>
 				
 			<!-- Responsive Nav -->
 
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-					<ul class="navbar-nav navbar__navigation mr-auto">
+				<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+					<ul class="nav navbar-nav navbar-right navbar__navigation">
 						<li class="nav-item active">
 							<a class="nav-link" href="acerca de.html">Acerca de<span class="sr-only">(current)</span></a>
 						</li>
@@ -79,14 +80,15 @@ se usara bootstrap
 						</li>
 					</ul>
 				</div> <!--End items-->
+				</div> <!--End container-fluid"
 			</nav>
 			
 			<!--Header-->
-				<header class="container-fluid header__tia-tomate"
+			<header class="container-fluid header__tia-tomate"
 				<h1>Nosotros</h1>
-				</header>
+			</header>
 			
-				<main>
+			<main>
 
 			<!--Blog-->
 			
@@ -133,13 +135,58 @@ se usara bootstrap
 					<a class="btn button_tia-tomate" href="#">CLICK AQUÍ</a>
 				</section>
 
-				</main>
+			</main>
+
+			<!-- footer -->
+
+			<footer class="footer_tia-tomate">
+				<div class="row">
+					<div class="col-sm footer__tia-tomate_image">
+						<a href="#">
+	    				<img src="assets/img/logo-footer.png" alt="Tía Tomate">
+						</a>
+					</div>
+					<div class="col-sm">
+						<div class="footer__tia-tomate_icon">
+							<i class="fab fa-facebook fa-3x"></i>
+							<i class="fab fa-instagram fa-3x"></i>
+							<i class="fab fa-twitter fa-3x"></i>
+						</div>
+					</div>
+					<div class="col-sm justify-content-end">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Acerca de</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Productos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				 <small>Tía Tomate 2018. Todos los derechos reservados.</small>
+			</footer>
 
 			<!-- Optional JavaScript -->
+
 		    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
 		    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
 		    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+			<!-- font Awesome 5.1 -->
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+			<!-- main script -->
+			<script scr="assets/js/script.js></script>
 		</body>
 		</html>  
 
