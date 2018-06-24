@@ -49,7 +49,7 @@ se usara bootstrap
 		<body>
 			<!-- Navbar -->
 			
-			<nav class="navbar navbar-expand-lg navbar_tia-tomate fixed-top">
+			<nav class="navbar navbar-expand-lg navbar__tia-tomate fixed-top">
 			
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -82,7 +82,7 @@ se usara bootstrap
 			</nav>
 			
 			<!--Header-->
-				<header class="container-fluid header_tia-tomate"
+				<header class="container-fluid header__tia-tomate"
 				<h1>Nosotros</h1>
 				</header>
 			
@@ -94,7 +94,7 @@ se usara bootstrap
 				    <div class="row">
 				      <div class="blog__inner col-lg-6 col-md-6 col-sm-12">
 				        <h3>Historia </h3>
-				        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus.</p>
+				        <p>Esta historia nace hace unos años cuando la vida me brindó la oportunidad de recuperar los sabores a campo, olores a ciruelas y tierra mojada que consiguieron trasladarme a mi niñez. Volví a disfrutar del tomate. Si, ese que sabe y huele a tomate, ése tomate de vida tranquila que por su sabor sabes al comerlo que tiene su propia historia y, sin pretenderlo, pasas a formar parte de ella.</p>
 				        
 				     </div>
 				     <div class="blog__inner blog__inner_background col-lg-6 col-md-6 col-sm-12">
@@ -105,6 +105,33 @@ se usara bootstrap
 				
 				<!--about us section-->
 
+				<section class="container-fluid about-us">
+					<div class="row">
+						<div class="col-sm-12"><h2>Quienes Somos</h2></div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+						<p>Fue así como nos adentramos en el fabuloso mundo del sabor. Miles de variedades, infinidad de cultivos desconocidos y un sinfín de maneras de cultivar. Nos propusimos recuperar variedades y buscar el sabor. Tomates de siempre, esos que “viajan mal” pero que mantienen el sabor a tradición, a las cosas bien hechas, a su ritmo y al del calor del sol que lo madura en la mata.</p>
+					</div>
+					</div>
+					<div class="row">
+						<div class="col-sm about-us__inner about-us__inner_image-left"></div>
+						<div class="col-sm about-us__inner">
+						<h5>Javiera Kunstmann</h5>
+						<p>Defensores de lo auténtico, lo de siempre, lo natural y la sabiduría tradicional, buscamos la variedad y el sabor. Investigamos, probamos, compartimos y escuchamos.</p>
+						</div>
+						<div class="col-sm about-us__inner about-us__inner_image-right"></div>
+						<div class="col-sm about-us__inner">
+						<h5>Roberto Pacheco</h5>
+						<p>Todo con un único objetivo, conseguir cultivos sanos, naturales y orgánicos. Cultivos que nos beneficien a nosotros por salud, nos hagan disfrutar por sabor y que cuiden a la madre naturaleza, respetando sus ciclos de una forma natural. Sin olvidar nunca que el ritmo lo marca el campo.</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h4>!Te invitamos a vivir una nueva experiencia¡</h4>
+					<a class="btn button_tia-tomate" href="#">CLICK AQUÍ</a>
+				</section>
 
 				</main>
 
