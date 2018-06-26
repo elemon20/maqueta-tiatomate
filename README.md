@@ -84,11 +84,10 @@ se usara bootstrap, a continuación se detalla estructura de html:
 	<body>
 		<!-- Navbar -->
 		
-		<nav class="navbar navbar-expand-lg navbar-light navbar__tia-tomate fixed-top">
-			<div class="container-fluid">
-		
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+		<nav class="container navbar navbar-expand-lg navbar__tia-tomate fixed-top">
+					
+			<button class="navbar-toggler btn btn-link" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg></span>
 			</button>
 
 		<!-- Just Image-->
@@ -115,11 +114,10 @@ se usara bootstrap, a continuación se detalla estructura de html:
 					</li>
 				</ul>
 			</div> <!--End items-->
-			</div> <!--End container-fluid"
 		</nav>
 		
 		<!--Header-->
-		<header class="container-fluid header__tia-tomate"
+		<header class="container header__tia-tomate">
 			<h1>Nosotros</h1>
 		</header>
 		
@@ -127,26 +125,26 @@ se usara bootstrap, a continuación se detalla estructura de html:
 
 		<!--Blog-->
 		
-			<section class="container-fluid blog">
+			<section class="container blog">
 			    <div class="row">
 			      <div class="blog__inner col-lg-6 col-md-6 col-sm-12">
-			        <h3>Historia </h3>
+			        <h2>Historia </h2>
 			        <p>Esta historia nace hace unos años cuando la vida me brindó la oportunidad de recuperar los sabores a campo, olores a ciruelas y tierra mojada que consiguieron trasladarme a mi niñez. Volví a disfrutar del tomate. Si, ese que sabe y huele a tomate, ése tomate de vida tranquila que por su sabor sabes al comerlo que tiene su propia historia y, sin pretenderlo, pasas a formar parte de ella.</p>
 			        
 			     </div>
 			     <div class="blog__inner blog__inner_background col-lg-6 col-md-6 col-sm-12">
-					<div class="blog__content"><h3>Un Gusto Conocerte!</h3></div>
+					<div class="blog__content"><h2>Un Gusto Conocerte!</h2></div>
 				</div>
 			    </div>
 			</section>
 			
 			<!--about us section-->
 
-			<section class="container-fluid about-us">
-				<div class="row">
+			<section class="container">
+				<div class="row about-us">
 					<div class="col-sm-12"><h2>Quienes Somos</h2></div>
 				</div>
-				<div class="row">
+				<div class="row about-us">
 					<div class="col-sm-12">
 					<p>Fue así como nos adentramos en el fabuloso mundo del sabor. Miles de variedades, infinidad de cultivos desconocidos y un sinfín de maneras de cultivar. Nos propusimos recuperar variedades y buscar el sabor. Tomates de siempre, esos que “viajan mal” pero que mantienen el sabor a tradición, a las cosas bien hechas, a su ritmo y al del calor del sol que lo madura en la mata.</p>
 				</div>
@@ -165,16 +163,20 @@ se usara bootstrap, a continuación se detalla estructura de html:
 				</div>
 			</section>
 
+		<!-- purchase section -->
+
 			<section>
-				<h4>!Te invitamos a vivir una nueva experiencia¡</h4>
+				<div class="container purchase_tia-tomate">
+				<h2>¡Te invitamos a vivir una nueva experiencia!</h2>
 				<a class="btn button_tia-tomate" href="#">CLICK AQUÍ</a>
+				</div>
 			</section>
 
 		</main>
 
 		<!-- footer -->
 
-		<footer class="footer_tia-tomate">
+		<footer class="container footer_tia-tomate">
 			<div class="row">
 				<div class="col-sm footer__tia-tomate_image">
 					<a href="#">
@@ -227,5 +229,31 @@ se usara bootstrap, a continuación se detalla estructura de html:
 
 
 
+###Estilos:
 
+se usaran 5 tipos de colores:
 
+para fondos:
+
+- #E56353
+- #FAFAFA
+- #707070
+
+para letras:
+
+- #696863
+- #FFFFFF
+
+se usaran 3 tipos de fuentes:
+
+- Raleway-Bold.ttf
+- Raleway-ExtraLight.ttf
+- OpenSans-Regular.ttf
+
+Imagenes se usaran las siguientes:
+
+![](assets/img/logo-navbar.png)
+![](assets/img/logo-footer.png)
+![](assets/img/our-tomatoes.png)
+![](assets/img/javiera-kunstmann.png)
+![](assets/img/roberto-pacheco.png)
